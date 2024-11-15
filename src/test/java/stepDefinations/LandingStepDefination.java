@@ -38,9 +38,6 @@ public class LandingStepDefination {
 		
 		productName_LandingPage = lp.Landing_ProductName().split("-")[0].trim();
 		System.out.println(productName_LandingPage +" Extracted from Home page");
-		System.out.println(productName_LandingPage +" Extracted from Home page");
-		System.out.println(productName_LandingPage +" Extracted from Home page");System.out.println(productName_LandingPage +" Extracted from Home page");
-		
 	}
 	@When("^user searched with shortname (.+) and extracted actual name of product$")
 	public void user_searched_with_shortname_name_and_extracted_actual_name_of_product(String shortName) throws InterruptedException {
@@ -48,8 +45,6 @@ public class LandingStepDefination {
 		lp.Landing_Search().sendKeys(shortName);
 		Thread.sleep(5000);
 		productName_LandingPage = lp.Landing_ProductName().split("-")[0].trim();
-		System.out.println(productName_LandingPage +" Extracted from Home page");
-		System.out.println(productName_LandingPage +" Extracted from Home page");
 		System.out.println(productName_LandingPage +" Extracted from Home page");
 	}
 	
