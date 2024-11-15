@@ -49,6 +49,8 @@ public class LandingStepDefination {
 		Thread.sleep(5000);
 		productName_LandingPage = lp.Landing_ProductName().split("-")[0].trim();
 		System.out.println(productName_LandingPage +" Extracted from Home page");
+		System.out.println(productName_LandingPage +" Extracted from Home page");
+		System.out.println(productName_LandingPage +" Extracted from Home page");
 	}
 	
 	@When("Added {string} items of the selected product to cart")

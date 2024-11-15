@@ -40,6 +40,7 @@ public class OfferStepDefination {
 		ProductName_OfferPage = op.Offer_ProductName();
 		
 		System.out.println(ProductName_OfferPage + " Extracted from offer page");
+		System.out.println(ProductName_OfferPage + " Extracted from offer page");
 	}
 	
 	public void switchToOfferPage() {
@@ -68,6 +69,7 @@ public class OfferStepDefination {
 		
 		ProductName_OfferPage = op.Offer_ProductName();
 		
+		System.out.println(ProductName_OfferPage + " Extracted from offer page");
 		System.out.println(ProductName_OfferPage + " Extracted from offer page");
 	}
 }
